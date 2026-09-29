@@ -3,7 +3,6 @@
 Discord Rich Presence for FiveM. The client samples player state on a slow interval and only sends a new Discord payload when its text changes. The server pushes accurate player counts on joins, leaves, and a low-frequency fallback refresh.
 
 ## Setup
-
 1. Create a Discord application and copy its Application ID into `Config.Discord.appId` in `config.lua`.
 2. Upload image assets in the Discord application's Rich Presence Art Assets page. Set the matching asset keys in `largeAsset` and `smallAsset`.
 3. Replace the example connect address and Discord invite in `Config.Discord.buttons`. Discord supports at most two buttons.
